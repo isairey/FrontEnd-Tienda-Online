@@ -1,7 +1,6 @@
 ______________________________________________________________
 # 🛒 **Aplicación de Lista de la Compra: CRUD con JavaScript**
 
-## **Project Lluvia de Bugs - Aplicación de Lista de la Compra: CRUD con JavaScript**
 
 ## **Objetivo**
 Esta aplicación permite a los usuarios crear, editar y eliminar productos, facilitando la gestión de una lista de compra básica en CRUD, en JavaScript.
@@ -40,11 +39,7 @@ shopList/
 - Crear, editar y eliminar productos
 - Interfaz responsiva y amigable
 
-### Equipo
-- [Sergi Asins](https://github.com/SergiAsins)
-- [Fran Garcia](https://github.com/FranGarciaga)
-- [Stefano Micciche](https://github.com/LilBiscuit12)
-- [Andreea Celmare](https://github.com/andreeaclmr)
+
 
 ## 👁️‍🗨️ Historia de Usuario 1: Ver la lista de ítems
 
