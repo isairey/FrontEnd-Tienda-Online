@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Shadows Into Light", cursive;
+  background-color: #f9f9f9;
+}
+
+main {
+  margin: 0 auto;
+  width: fit-content;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.list-container {
+  padding: 20px;
+  min-height: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: repeating-linear-gradient(
+    white 0px,
+    white 24px,
+    #c5d5e5 25px
+  ); /* Crea líneas horizontales cada 25px */
+}
+
+#listId li {
+  list-style-type: none;
+  font-size: 24px;
+  display: flex;
+  /*list-style-type: inline;*/
+  justify-content: space-between;
+  /* border-bottom: 1px dashed #333; */
+  margin-bottom: 10px;
+}
+
+.textSpan {
+  text-decoration: line-through;
+}
+
+.item-delete-btn {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  color: #aa0000;
+
+  &:hover {
+    color: #ff0000;
+  }
+}
+
+input,
+button {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #c1c1c1;
+  font-family: "Dancing Script", cursive;
+}
+
+button {
+  background-color: #f9f9f9;
+  margin-left: 10px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  &:hover {
+    background-color: #ddd;
+    border: 1px solid #c1c1c1;
+  }
+}

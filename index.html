@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" type="module" defer></script>
+    <title>Lista de la Compra</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>Lista de la Compra</h1>
+        <div class="form-container">
+          <input id="inputId" type="text" placeholder="Añadir ítem..." />
+          <button onclick="addItemToList()">Añadir</button>
+        </div>
+        <div class="list-container">
+          <ul id="listId">
+            <!-- Aquí se añadirán los elementos de la lista de la compra -->
+            <!-- Elimina este item y implementa la funcionalidad para añadir items -->
+            <li>
+              El primer Item de la compra
+              <span onclick="deleteItemFromList()" class="item-delete-btn"
+                >x</span
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
